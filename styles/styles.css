@@ -1,3 +1,29 @@
+header {
+  position: relative;
+  height: 450px;
+}
+
+header img {
+  width: 95%;
+  height: auto;
+  border-radius: 15px;
+  margin: 25px;
+}
+
+header h1, header p {
+  color: white;
+  position: relative;
+  top: -250px;
+  left: 385px;
+  font-size: 50px;
+}
+
+header p {
+  top: -285px;
+  left: 430px;
+  font-size: 20px;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,8 +38,86 @@ main {
 }
 
 main nav {
-  -webkit-box-flex: 3;
-      -ms-flex-positive: 3;
-          flex-grow: 3;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+main nav h1, main nav h4 {
+  width: 120px;
+  padding: 5px 20px;
+  text-align: center;
+  margin: 15px 10px;
+}
+
+main nav p {
+  width: auto;
+  padding: 3px;
+  margin: 5px 0 0 15px;
+  text-align: left;
+}
+
+main section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #8bb2ca;
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+main section article img {
+  width: 70%;
+  height: 300px;
+  border-radius: 15px;
+  margin: 15px auto;
+}
+
+main section article h2, main section article p {
+  font-size: 18px;
+  width: 700px;
+  margin: 23px auto;
+}
+
+main section article h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+main section article p {
+  font-size: smaller;
+  text-align: justify;
+  margin: 8px auto;
+}
+
+main aside {
+  border: 1px solid;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+main aside h1, main aside h4 {
+  width: 120px;
+  padding: 5px 20px;
+  text-align: center;
+  margin: 15px 10px;
+}
+
+main aside p {
+  width: auto;
+  padding: 3px;
+  margin: 5px 0 0 15px;
+  text-align: left;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */
